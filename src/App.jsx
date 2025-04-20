@@ -1,13 +1,15 @@
 
-import './App.css'
+import Navbar from './compnents/Navbar/Navbar'
+import PriceOptions from './compnents/PriceOptions/PriceOptions'
 
 function App() {
   
 
   return (
     <>
-      
-      <h1>Vite + React</h1>
+      <Navbar></Navbar>    
+
+      <PriceOptions></PriceOptions>
       
       
     </>
